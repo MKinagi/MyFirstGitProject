@@ -36,9 +36,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.appURL);
-
-WebUI.maximizeWindow();
+CustomKeywords.'BrowserKeywords.applicationURLLunch'();
 
 String actualUrl=WebUI.getUrl();
 
